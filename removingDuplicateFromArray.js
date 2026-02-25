@@ -4,7 +4,7 @@ function noDuplicate(parameterArray){
 
     let newArray = [];
 
-    for(let eachNumber of array){
+    for(let eachNumber of parameterArray){
         if (newArray.includes(eachNumber)===false){
             newArray.push(eachNumber)
         }
