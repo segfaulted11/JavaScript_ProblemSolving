@@ -6,5 +6,6 @@ let sum = 0;
 for (let i = 0; i<=numbers.length-1; i++ ){
     sum += numbers[i]
 }
+
 console.log(sum)//-9
 console.log(Math.abs(sum))//9

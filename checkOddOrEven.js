@@ -3,13 +3,13 @@ function checkOddOrEven(number){
     if(typeof number !="number"){
         return ("ERROR! Enter an actual number!")
     }
-    if (Number.isNaN(number)){
+    if(Number.isNaN(number)){
         return ("ERROR! NaN is valid!")
     }
     if(!Number.isFinite(number)){
        return ("ERROR! Enter an finite number!")
    }
-    if( !Number.isInteger(number)){
+    if(!Number.isInteger(number)){
         return ("ERROR! Enter an integer!")
     }
 
