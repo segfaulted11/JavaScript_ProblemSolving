@@ -3,7 +3,7 @@ function shoppingCartTotal(array){
     let sum = 0;
 for (let element of array){
     for (let key in element){
-        if (typeof (element[key])==="number"){
+        if (key === "price"){
             sum += element[key]
         }
     }
